@@ -10,7 +10,7 @@ The following modules need to be installed to use functions from this repository
 # How to use
 Import the function "calculate_mpn" from mpn.py and call the function giving your data (pandas.DataFrame), the number of replicates per dilution step (int), and a list of column names (list[str]) for (1) experiment identifier, (2) inoculum used in g or ml, and (3) the number of positive outcomes as arguments.
 
-Make sure to specify
+Make sure to specify the argument "transform_inoculum_log10=False" if the inoculum used is already in log10 scale (e.g. -1, -2, -3, etc...).
 
 # Example code
 
